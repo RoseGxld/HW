@@ -1,4 +1,20 @@
 package abdemo;
 
-public class Canine {
+public abstract class Canine extends Animal {
+
+    private String name;
+
+    public Canine(String name){
+        this.name = name;
+
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
 }

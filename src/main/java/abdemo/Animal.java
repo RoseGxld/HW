@@ -1,4 +1,12 @@
 package abdemo;
 
-public class Animal {
-}
+public abstract class Animal {
+
+    //method signatures / stubs
+
+    abstract String makeSound();
+    abstract String eat();
+    }
+
+
+
