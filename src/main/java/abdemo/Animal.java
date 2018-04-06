@@ -3,13 +3,14 @@ package abdemo;
 public abstract class Animal {
 
     //method signatures / stubs
-
+    private String name;
     abstract String makeSound();
     abstract String eat();
+
+    public Animal(){
+        this.name = name;
     }
+}
 
 
 
-C:\Users\jinxt\employees\src\main\java
-        C:\Users\jinxt\employees
-        C:\Users\jinxt\employees\src\main\java\abdemo

@@ -17,7 +17,7 @@ public class SalariedEmployee extends Employee {
 
     }
     @Override
-    public double calculateEarnings(){
+    double calculateEarnings(){
         return weeklySalary;
     }
 

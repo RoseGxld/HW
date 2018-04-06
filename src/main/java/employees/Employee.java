@@ -1,10 +1,12 @@
 package employees;
 
-public class Employee {
+public abstract class Employee {
     private static int count = 0;
     private String firstName;
     private String lastName;
     private final String socialSecurityNumber;
+    abstract double calculateEarnings();
+
 
     public Employee(String firstName, String lastName, String socialSecurityNumber) {
         this.firstName = firstName;
@@ -39,11 +41,6 @@ public class Employee {
 
     public String getSocialSecurityNumber() {
         return socialSecurityNumber;
-    }
-
-
-    public double calculateEarnings(){
-        return 0.0;
     }
 
     @Override

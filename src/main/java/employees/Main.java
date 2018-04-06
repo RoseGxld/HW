@@ -12,11 +12,11 @@ public class Main {
 
 
         Employee employee3 = new CommissionedEmployee("Erica","Saunders",
-                "111-22-9999",25.0,32.0);
+                "111-22-9999",450.0,50.0);
 
 
         Employee employee4 = new BasePlusCommissionEmployee("The","Goat",
-                "111-22-9999",63.0,45.0,35.0);
+                "111-22-9999",60.0,350.0,35.0);
 
         Employee[] staff = new Employee[]{employee1,employee2,employee3,employee4};
 

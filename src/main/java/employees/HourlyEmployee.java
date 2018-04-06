@@ -11,6 +11,8 @@ public class HourlyEmployee extends Employee {
         super(firstName, lastName, socialSecurityNumber);
         this.wage = wage;
         this.hours = hours;
+
+
     }
 
     public double getWage() {
@@ -30,7 +32,7 @@ public class HourlyEmployee extends Employee {
     }
 
     @Override
-    public double calculateEarnings(){
+    double calculateEarnings(){
         return wage * hours;
     }
 

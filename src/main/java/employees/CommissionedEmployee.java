@@ -11,7 +11,7 @@ public class CommissionedEmployee extends Employee {
         this.grossSales = grossSales;
     }
     @Override
-    public double calculateEarnings(){
+    double calculateEarnings(){
         return commissionRate/100 * grossSales;
     }
 
