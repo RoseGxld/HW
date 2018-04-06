@@ -1,6 +1,6 @@
 package employees;
 
-public abstract class Employee {
+public abstract class Employee implements IPayable {
     private static int count = 0;
     private String firstName;
     private String lastName;

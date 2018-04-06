@@ -9,6 +9,7 @@ public class Main {
         Animal a3 = new Hawk("Zues");
 
 
+
         Animal[] animals = new Animal[]{a1, a2, a3};
 
         for (Animal species : animals) {

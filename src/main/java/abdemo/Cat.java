@@ -1,6 +1,6 @@
 package abdemo;
 
-public class Cat extends Feline {
+public class Cat extends Feline implements IPet,IRestroom {
 
     public Cat(String name) {
         super(name);
@@ -12,5 +12,13 @@ public class Cat extends Feline {
     @Override
     String eat() {
         return "fish";
+    }
+
+    public String greet() {
+        return "Whats uuuuppppp";
+    }
+
+    public String usesBathroom() {
+        return "Squats to pee";
     }
 }

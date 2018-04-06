@@ -1,6 +1,6 @@
 package employees;
 
-public class SalariedEmployee extends Employee {
+public class SalariedEmployee extends Employee implements IPayable {
 
     private double weeklySalary;
 
@@ -24,5 +24,10 @@ public class SalariedEmployee extends Employee {
     @Override
     public String toString() {
         return super.toString() + weeklySalary;
+    }
+
+    @Override
+    public double setPaymentAmount() {
+        return 0;
     }
 }

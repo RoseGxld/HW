@@ -1,6 +1,6 @@
 package employees;
 
-public class BasePlusCommissionEmployee extends CommissionedEmployee {
+public class BasePlusCommissionEmployee extends CommissionedEmployee implements IPayable {
 
     private double baseSalary;
 

@@ -1,6 +1,6 @@
 package employees;
 
-public class CommissionedEmployee extends Employee {
+public class CommissionedEmployee extends Employee implements IPayable {
 
     private double grossSales;
     private double commissionRate;
@@ -21,6 +21,11 @@ public class CommissionedEmployee extends Employee {
                 "grossSales=" + grossSales +
                 ", commissionRate=" + commissionRate +
                 '}';
+    }
+
+    @Override
+    public double setPaymentAmount() {
+        return 0;
     }
 }
 

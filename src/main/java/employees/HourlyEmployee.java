@@ -1,7 +1,6 @@
 package employees;
 
-public class HourlyEmployee extends Employee {
-
+public class HourlyEmployee extends Employee implements IPayable{
     private double wage;
     private double hours;
 
@@ -40,6 +39,11 @@ public class HourlyEmployee extends Employee {
     @Override
     public String toString() {
         return super.toString() + wage + hours;
+    }
+
+    @Override
+    public double setPaymentAmount() {
+        return 0;
     }
 }
 

@@ -21,7 +21,8 @@ public class Main {
         Employee[] staff = new Employee[]{employee1,employee2,employee3,employee4};
 
         for(Employee staffmember: staff){
-            System.out.println(staffmember.calculateEarnings());
+            System.out.println(staffmember.calculateEarnings() + staffmember.setPaymentAmount()
+            );
         }
 
 
