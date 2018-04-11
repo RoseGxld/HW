@@ -1,4 +1,9 @@
 package superhero;
 
-public class Superman {
+public class Superman extends Hero{
+
+    public Superman(String name, String superpower, String flightSpeed){
+        super(name,superpower,flightSpeed);
+
+    }
 }
