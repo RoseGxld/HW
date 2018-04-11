@@ -23,7 +23,16 @@ public class Main {
             Hero result = h.next();
             System.out.println(result);
         }
-        ArrayList<>
+
+        Hero hero1 = new GreenLantern("GreenLantern","Ring","30 mph");
+        Hero hero2 = new Superman("Superman","Invincible","45 mph");
+        Hero hero4 = new Falcon("Falcon","Flight & ", "50 mph");
+
+        ArrayList<IFly> heros2 = new ArrayList<IFly>();
+        heros2.add(hero1);
+        heros2.add(hero2);
+        heros2.add(hero3);
     }
+
     
 }
