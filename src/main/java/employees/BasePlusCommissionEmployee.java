@@ -1,12 +1,17 @@
 package employees;
 
+import java.util.Date;
+
 public class BasePlusCommissionEmployee extends CommissionedEmployee implements IPayable {
 
     private double baseSalary;
 
-    public BasePlusCommissionEmployee(String firstName, String lastName,String socialSecurityNumber ,double commissionRate,double grossSales, double baseSalary){
-        super(firstName,lastName,socialSecurityNumber,commissionRate,grossSales);
+
+    public BasePlusCommissionEmployee(String firstName, String lastName,String socialSecurityNumber
+            ,double baseSalary){
+        super(firstName,lastName,socialSecurityNumber,baseSalary);
         this.baseSalary = baseSalary;
+
 
 
     }

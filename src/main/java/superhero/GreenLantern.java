@@ -7,9 +7,11 @@ public class GreenLantern extends Hero implements IFly {
     }
 
     @Override
-    String flightSpeed(){
-        return 
+    public String flightSpeed() {
+        return null;
     }
 }
+
+
 
 

@@ -3,6 +3,7 @@ package employees;
 public class HourlyEmployee extends Employee implements IPayable{
     private double wage;
     private double hours;
+    private HireDate hireDate;
 
 
     public HourlyEmployee(String firstName, String lastName, final String socialSecurityNumber,

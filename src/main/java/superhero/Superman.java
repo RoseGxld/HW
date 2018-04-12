@@ -6,6 +6,9 @@ public class Superman extends Hero implements IFly{
         super(name,superpower,flightSpeed);
 
     }
+
     @Override
-    String flightSpeed();
+    public String flightSpeed() {
+        return null;
+    }
 }

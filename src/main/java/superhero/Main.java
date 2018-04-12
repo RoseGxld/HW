@@ -28,10 +28,7 @@ public class Main {
         Hero hero2 = new Superman("Superman","Invincible","45 mph");
         Hero hero4 = new Falcon("Falcon","Flight & ", "50 mph");
 
-        ArrayList<IFly> heros2 = new ArrayList<IFly>();
-        heros2.add(hero1);
-        heros2.add(hero2);
-        heros2.add(hero3);
+
     }
 
     

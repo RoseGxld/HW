@@ -6,7 +6,9 @@ public class Falcon extends Hero implements IFly{
         super(name,superpower,flightSpeed);
     }
 
-    @Override
-    String flightSpeed();
 
+    @Override
+    public String flightSpeed() {
+        return null;
+    }
 }

@@ -1,17 +1,22 @@
 package employees;
 
+import java.util.Date;
+
 public abstract class Employee implements IPayable {
     private static int count = 0;
     private String firstName;
     private String lastName;
     private final String socialSecurityNumber;
+    private Date hireDate;
     abstract double calculateEarnings();
+
 
 
     public Employee(String firstName, String lastName, String socialSecurityNumber) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.socialSecurityNumber = socialSecurityNumber;
+        this.hireDate = hireDate;
         count++;
 
         System.out.printf("Constructed employee %s %s |  count=%d%n", firstName, lastName, count);
