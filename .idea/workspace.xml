@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4cea8da-d9c3-4456-a1a4-9d5947caafea" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/book/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/book/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/book/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/employees/HireDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employees/BasePlusCommissionEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employees/BasePlusCommissionEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employees/CommissionedEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employees/CommissionedEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employees/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employees/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employees/HourlyEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employees/HourlyEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employees/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employees/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employees/SalariedEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employees/SalariedEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/superhero/Falcon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/superhero/Falcon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/superhero/GreenLantern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/superhero/GreenLantern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/superhero/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/superhero/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/superhero/Superman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/superhero/Superman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/employees/BasePlusCommissionEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/employees/BasePlusCommissionEmployee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/employees/CommissionedEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/employees/CommissionedEmployee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/employees/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/employees/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/employees/HourlyEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/employees/HourlyEmployee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/employees/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/employees/SalariedEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/employees/SalariedEmployee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/superhero/Deadpool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/superhero/Deadpool.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/superhero/GreenLantern.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/superhero/GreenLantern.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/superhero/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/superhero/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/superhero/Superman.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/superhero/Superman.class" afterDir="false" />
-    </list>
+    <list default="true" id="b4cea8da-d9c3-4456-a1a4-9d5947caafea" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -182,7 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="9" />
     <option name="y" value="18" />
     <option name="width" value="1347" />
@@ -379,7 +353,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
